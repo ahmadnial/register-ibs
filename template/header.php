@@ -51,7 +51,7 @@
         <nav class="main-header navbar navbar-expand-md navbar-light navbar-light">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
-                    <img src="img/paypal2.png" alt="">
+                    <img src="img/GloryMu.png" alt="" height="40" width="40">
                     <span class="brand-text font-weight-light">Dashboard IBS</span>
                 </a>
 

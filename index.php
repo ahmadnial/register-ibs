@@ -80,6 +80,7 @@ include "proses.php"; ?>
                                         <option value="General Anestesi-ETT">General Anestesi - ETT</option>
                                         <option value="General Anestesi-LMA">General Anestesi - LMA</option>
                                         <option value="General Anestesi-TiVa">General Anestesi - TiVa</option>
+                                        <option value="General Anestesi-TiVa">General Anestesi - Face Mask</option>
                                         <option value="Lokal Anestesi">Lokal Anestesi</option>
                                     </select>
                                 </div>
@@ -155,11 +156,11 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="f-group">
                                     <label for="">Jam Mulai</label>
-                                    <input type="time" id="" name="start_time" placeholder="" class="form-control" required>
+                                    <input type="time" id="" name="start_time" placeholder="" class="form-control jam_now" required>
                                 </div>
                                 <div class="f-group mt-3 mb-3">
                                     <label for="">Jam Selesai</label>
-                                    <input type="time" id="" name="end_time" placeholder="" class="form-control" required>
+                                    <input type="time" id="" name="end_time" placeholder="" class="form-control jam_now" required>
                                 </div>
                                 <div class="f-group mt-3 mb-3">
                                     <label for="">Durasi</label>
