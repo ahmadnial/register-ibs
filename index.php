@@ -47,6 +47,7 @@ include "proses.php"; ?>
                                     <select class="form-control" name="jaminan">
                                         <option value="-">--Choose--</option>
                                         <option value="JKN">JKN</option>
+                                        <option value="BPJS-TK">BPJS-TK</option>
                                         <option value="Jasa Raharja">Jasa Raharja</option>
                                         <option value="Jampersal">Jampersal</option>
                                         <option value="Jamkesos">Jamkesos</option>
@@ -92,11 +93,19 @@ include "proses.php"; ?>
                                     <label for="" class="form-label">Konversi Tindakan Anestesi</label>
                                     <select class="form-control" name="konversi_t_a">
                                         <option value="-">--Choose--</option>
-                                        <option value="Tidak Dilakukan">Tidak Dilakukan</option>
-                                        <option value="General Anestesi">General Anestesi</option>
                                         <option value="Lokal Anestesi">Lokal Anestesi</option>
-                                        <option value="-">Tidak ada</option>
+                                        <option value="Sedasi Ringan">Sedasi Ringan</option>
+                                        <option value="Sedasi Moderat">Sedasi Moderat</option>
+                                        <option value="Sedasi Dalam">Sedasi Dalam</option>
+                                        <option value="Tidak Dilakukan">Tidak Dilakukan</option>
+                                        <!-- <option value="General Anestesi">General Anestesi</option> -->
+                                        <!-- <option value="-">Tidak ada</option> -->
                                     </select>
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <label for="" class="form-label">komplikasi Anestesi (Overdosis,Reaksi Anestesi,Salah Penempatan ETT)</label>
+                                    <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
+                                    <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control" required>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
@@ -156,11 +165,11 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="f-group">
                                     <label for="">Jam Mulai</label>
-                                    <input type="time" id="" name="start_time" placeholder="" class="form-control jam_now" required>
+                                    <input type="time" id="" name="start_time" placeholder="" class="form-control" required>
                                 </div>
                                 <div class="f-group mt-3 mb-3">
                                     <label for="">Jam Selesai</label>
-                                    <input type="time" id="" name="end_time" placeholder="" class="form-control jam_now" required>
+                                    <input type="time" id="" name="end_time" placeholder="" class="form-control" required>
                                 </div>
                                 <div class="f-group mt-3 mb-3">
                                     <label for="">Durasi</label>

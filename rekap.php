@@ -83,6 +83,7 @@
                   <th>Diag. pasca OP</th>
                   <th>Teknik Anestesi</th>
                   <th>Konversi Tindakan Anestesi</th>
+                  <th>Komplikasi Anestesi</th>
                   <th>dr.Operator</th>
                   <th>dr.Anestesi</th>
                   <th>Penata Anestesi</th>
@@ -120,6 +121,7 @@
                       <td><?php echo $data['diagnosa_pasca']; ?></td>
                       <td><?php echo $data['teknik_anestesi']; ?></td>
                       <td><?php echo $data['konversi_anestesi']; ?></td>
+                      <td><?php echo $data['komplikasi']; ?></td>
                       <td><?php echo $data['dr_operator']; ?></td>
                       <td><?php echo $data['dr_anestesi']; ?></td>
                       <td><?php echo $data['penata_anestesi']; ?></td>
