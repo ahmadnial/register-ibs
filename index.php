@@ -174,7 +174,7 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="f-group mt-3 mb-3">
                                     <label for="">Durasi</label>
-                                    <input type="text" id="" name="durasi" placeholder="Tuliskan Durasi mu!" class="form-control" required>
+                                    <input type="text" id="" name="durasi" placeholder="Tuliskan Durasi mu!" value="Menit" class="form-control" required>
                                 </div>
                                 <!-- <input type="hidden" class="form-control" name="status" value="Menunggu Respon"> -->
 

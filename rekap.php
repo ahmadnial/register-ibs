@@ -131,6 +131,7 @@
                       <td><?php echo $data['durasi_jam']; ?></td>
                       <td>
                         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#ppiModal<?php echo $data['id']; ?>">Edit</button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#del<?php echo $data['id']; ?>">Del</button>
                       </td>
                     </tr>
                     <!-- MODAL -->
@@ -303,8 +304,32 @@
                         </div>
                       </div>
                     </div>
+                    <div class="modal fade" id="del<?php echo $data['id']; ?>">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="Label">Konfirmasi dulu, Serius mau di Hapus <?php echo $data['nama']; ?> no RM : <?php echo $data['no_rm']; ?>?</h5>
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+
+                            <body>
+                              <form action="" method="post">
+                                <input type="hidden" name="id_del" value="<?php echo $data['id']; ?>">
+                                <button type="submit" name="del" class="btn btn-success">Ya dong</button>
+                                <button type="button" class="btn btn-danger ml-1" data-dismiss="modal">Gajadi</button>
+                              </form>
+                            </body>
+                          </div>
+                        </div>
+                        <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
+                        <div class="modal-footer">
+                        </div>
+                      </div>
+                    </div>
                   <?php } ?>
                 <?php } ?>
+                <?php include 'delete.php'; ?>
                 <?php include 'edit.php' ?>
                 </tfoot>
             </table>
@@ -335,9 +360,8 @@
 
 <!-- /.content-wrapper -->
 <footer class="main-footer">
-  <div class="float-right d-none d-sm-inline">
-    We serve, Anything you want
-    <strong>Copyright &copy; 2022 <a href="">IT-RSNR</a>.</strong> All rights reserved.
+  <div class="float-left mb-2 d-none d-sm-inline">
+    <strong>Copyright &copy; 2022 <a href="">IT-RSNR</a></strong> | Anything you want.
 </footer>
 
 
