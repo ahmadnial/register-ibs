@@ -126,6 +126,7 @@ include "proses.php"; ?>
                                         <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
                                         <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option>
                                         <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An</option>
+                                        <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan Sp.An</option>
                                         <option value="-">Tidak ada</option>
                                     </select>
                                 </div>
