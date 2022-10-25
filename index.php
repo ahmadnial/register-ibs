@@ -16,7 +16,7 @@ include "proses.php"; ?>
                     <div class="card-body">
                         <div class="col-lg col-sm">
                             <form method="POST">
-                                <h5 for="" class="bg-info col text-white text-center shadow-sm p-2 bg-body rounded mt-2">Register Pasien IBS</h5>
+                                <h5 for="" class="bg-warning col text-white text-center shadow-sm p-2 bg-body rounded mt-2">Register Pasien IBS</h5>
                                 <div class="f-group">
                                     <!-- <div class="f-group">
                                         <label for="">Kode Laporan</label>
@@ -31,7 +31,7 @@ include "proses.php"; ?>
                                         <input type="text" class="form-control mb-3" name="kd_laporan" placeholder="Kosongkan Saja!">
                                     </div> -->
                                     <label for="">No.RM</label>
-                                    <input type="text" id="" name="rm" placeholder="Nomor Rekam Medis 6 digit terakhir" class="form-control" required>
+                                    <input type="number" id="" name="rm" placeholder="Nomor Rekam Medis 6 digit terakhir" class="form-control" required>
                                 </div>
 
                                 <div class="mb-3 mt-3">
@@ -73,6 +73,14 @@ include "proses.php"; ?>
                                     <label for="alamat" class="form-label">Teknik Anestesi</label>
                                     <textarea class="form-control" name="teknik_anestesi" id="" rows="2" placeholder="Tuliskan Teknik Anestesi"></textarea>
                                 </div> -->
+                                <div class="mb-3 mt-3">
+                                    <label for="" class="form-label">Penandaan Lokasi Operasi</label>
+                                    <select class="form-control" name="penandaan_lokasi">
+                                        <option value="-">--Choose--</option>
+                                        <option value="Dilakukan">Dilakukan</option>
+                                        <option value="Tidak Dilakukan">Tidak Dilakukan</option>
+                                    </select>
+                                </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Teknik Anestesi</label>
                                     <select class="form-control" name="teknik_anestesi">
@@ -126,7 +134,7 @@ include "proses.php"; ?>
                                         <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
                                         <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option>
                                         <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An</option>
-                                        <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan Sp.An</option>
+                                        <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option>
                                         <option value="-">Tidak ada</option>
                                     </select>
                                 </div>

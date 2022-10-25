@@ -41,8 +41,8 @@
 
         <!-- /.card-header -->
         <div class="card">
-          <div class="card-header bg-primary">
-            <h3 class="card-title">Rekap Register Operasi</h3>
+          <div class="card-header bg-purple">
+            <h3 class="card-title"> <i class="fa fa-table"></i> Rekap Register Operasi</h3>
           </div>
           <!-- /.card-header -->
 
@@ -63,7 +63,7 @@
                               <option value="1">Belum Terisi</option>
                               <option value="">Sudah Terisi</option>
                             </select> -->
-                      <button type="submit" name="cari" class="btn btn-primary ml-3">Search</button>
+                      <button type="submit" name="cari" class="btn btn-success"><i class="fa fa-search"></i></button>
                     </div>
                   </div>
                 </div>
@@ -81,6 +81,7 @@
                   <th>Diag. Pre OP</th>
                   <th>Tindakan OP</th>
                   <th>Diag. pasca OP</th>
+                  <th>Penandaan Lokasi</th>
                   <th>Teknik Anestesi</th>
                   <th>Konversi Tindakan Anestesi</th>
                   <th>Komplikasi Anestesi</th>
@@ -119,6 +120,7 @@
                       <td><?php echo $data['diagnosa_pre']; ?></td>
                       <td><?php echo $data['tindakan']; ?></td>
                       <td><?php echo $data['diagnosa_pasca']; ?></td>
+                      <td><?php echo $data['penandaan_lokasi']; ?></td>
                       <td><?php echo $data['teknik_anestesi']; ?></td>
                       <td><?php echo $data['konversi_anestesi']; ?></td>
                       <td><?php echo $data['komplikasi']; ?></td>
@@ -197,6 +199,14 @@
                                 <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
                                 <input type="text" id="" name="diag_pas_op" placeholder="Tuliskan Diagnosa Pasca OP" class="form-control" required value="<?php echo $data['diagnosa_pasca']; ?>">
                               </div>
+                              <div class="mb-3 mt-3">
+                                <label for="" class="form-label">Penandaan Lokasi Operasi</label>
+                                <select class="form-control" name="penandaan_lokasi">
+                                  <option value="-">--Choose--</option>
+                                  <option value="Dilakukan">Dilakukan</option>
+                                  <option value="Tidak Dilakukan">Tidak Dilakukan</option>
+                                </select>
+                              </div>
                               <!-- <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Teknik Anestesi</label>
                                     <textarea class="form-control" name="teknik_anestesi" id="" rows="2" placeholder="Tuliskan Teknik Anestesi"></textarea>
@@ -204,11 +214,12 @@
                               <div class="mb-3 mt-3">
                                 <label for="" class="form-label">Teknik Anestesi</label>
                                 <select class="form-control" name="teknik_anestesi">
-                                  <option value="">--Choose--</option>
+                                  <option value="-">--Choose--</option>
                                   <option value="Regional Anestesi">Regional Anestesi</option>
                                   <option value="General Anestesi-ETT">General Anestesi - ETT</option>
                                   <option value="General Anestesi-LMA">General Anestesi - LMA</option>
                                   <option value="General Anestesi-TiVa">General Anestesi - TiVa</option>
+                                  <option value="General Anestesi-TiVa">General Anestesi - Face Mask</option>
                                   <option value="Lokal Anestesi">Lokal Anestesi</option>
                                 </select>
                               </div>
@@ -220,10 +231,11 @@
                                 <label for="" class="form-label">Konversi Tindakan Anestesi</label>
                                 <select class="form-control" name="konversi_t_a">
                                   <option value="-">--Choose--</option>
-                                  <option value="Tidak Dilakukan">Tidak Dilakukan</option>
-                                  <option value="General Anestesi">General Anestesi</option>
                                   <option value="Lokal Anestesi">Lokal Anestesi</option>
-                                  <option value="-">Tidak ada</option>
+                                  <option value="Sedasi Ringan">Sedasi Ringan</option>
+                                  <option value="Sedasi Moderat">Sedasi Moderat</option>
+                                  <option value="Sedasi Dalam">Sedasi Dalam</option>
+                                  <option value="Tidak Dilakukan">Tidak Dilakukan</option>
                                 </select>
                               </div>
                               <div class="mb-3 mt-3">
@@ -245,6 +257,7 @@
                                   <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
                                   <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option>
                                   <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An</option>
+                                  <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option>
                                   <option value="-">Tidak ada</option>
                                 </select>
                               </div>
@@ -350,13 +363,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 <!-- /.content-wrapper -->
 <footer class="main-footer">

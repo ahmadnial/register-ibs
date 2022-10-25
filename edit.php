@@ -11,6 +11,7 @@
                                                         $diagpre = $_POST['diag_pre_op'];
                                                         $tindakan = $_POST['tindakan'];
                                                         $diagpasca = $_POST['diag_pas_op'];
+                                                        $penandaan = $_POST['penandaan_lokasi'];
                                                         $ta = $_POST['teknik_anestesi'];
                                                         $ka = $_POST['konversi_t_a'];
                                                         $droperator = $_POST['dr_operator'];
@@ -22,7 +23,7 @@
                                                         $durasi = $_POST['durasi'];
                                                         $id = $_POST['id'];
                                                         $sql2 = " UPDATE register_ibs set tanggal='$tgl', no_rm='$norm', nama='$nama', umur='$umur', jaminan='$jaminan', diagnosa_pre='$diagpre',
-                                                        tindakan='$tindakan', diagnosa_pasca='$diagpasca', teknik_anestesi='$ta', konversi_anestesi='$ka', dr_operator='$droperator',
+                                                        tindakan='$tindakan', diagnosa_pasca='$diagpasca', penandaan_lokasi='$penandaan', teknik_anestesi='$ta', konversi_anestesi='$ka', dr_operator='$droperator',
                                                         dr_anestesi='$dranestesi', penata_anestesi='$penata', jam_mulai='$start_time', jam_selesai='$end_time', durasi_jam='$durasi'  where id='$id' ";
                                                         $query2 = sqlsrv_query($conn, $sql2) or die(sqlsrv_errors());;
                                                         if ($query2) {
