@@ -3456,3 +3456,22 @@ Stack trace:
 [10-Sep-2022 10:59:22 Asia/Jakarta] PHP Warning:  Undefined array key "rencana" in D:\nial_app\register-ibs\rekap.php on line 148
 [10-Sep-2022 10:59:22 Asia/Jakarta] PHP Warning:  Undefined array key "tindak_lanjut" in D:\nial_app\register-ibs\rekap.php on line 152
 [10-Sep-2022 10:59:22 Asia/Jakarta] PHP Warning:  Undefined array key "keterangan" in D:\nial_app\register-ibs\rekap.php on line 156
+[25-Oct-2022 08:28:52 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\proses.php on line 2
+[25-Oct-2022 08:28:52 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\proses.php on line 2
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
