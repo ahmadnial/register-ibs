@@ -40,11 +40,11 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Umur</label>
-                                    <textarea class="form-control" name="umur" id="" rows="1" placeholder="Tuliskan Umur"></textarea>
+                                    <textarea class="form-control" name="umur" id="" rows="1" placeholder="Tuliskan Umur" required>Tahun</textarea>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Jaminan</label>
-                                    <select class="form-control" name="jaminan">
+                                    <select class="form-control" name="jaminan" required>
                                         <option value="-">--Choose--</option>
                                         <option value="JKN">JKN</option>
                                         <option value="BPJS-TK">BPJS-TK</option>
@@ -75,7 +75,7 @@ include "proses.php"; ?>
                                 </div> -->
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Penandaan Lokasi Operasi</label>
-                                    <select class="form-control" name="penandaan_lokasi">
+                                    <select class="form-control" name="penandaan_lokasi" required>
                                         <option value="-">--Choose--</option>
                                         <option value="Dilakukan">Dilakukan</option>
                                         <option value="Tidak Dilakukan">Tidak Dilakukan</option>
@@ -83,7 +83,7 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Teknik Anestesi</label>
-                                    <select class="form-control" name="teknik_anestesi">
+                                    <select class="form-control" name="teknik_anestesi" required>
                                         <option value="-">--Choose--</option>
                                         <option value="Regional Anestesi">Regional Anestesi</option>
                                         <option value="General Anestesi-ETT">General Anestesi - ETT</option>
@@ -99,7 +99,7 @@ include "proses.php"; ?>
                                 </div> -->
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Konversi Tindakan Anestesi</label>
-                                    <select class="form-control" name="konversi_t_a">
+                                    <select class="form-control" name="konversi_t_a" required>
                                         <option value="-">--Choose--</option>
                                         <option value="Lokal Anestesi">Lokal Anestesi</option>
                                         <option value="Sedasi Ringan">Sedasi Ringan</option>
@@ -117,8 +117,8 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
-                                    <select class="form-control" name="dr_operator">
-                                        <option value="-">--Choose--</option>
+                                    <select class="form-control" name="dr_operator" required>
+                                        <option value="">--Select Me--</option>
                                         <option value="dr.Aji Pangki,Sp.B">dr.Aji Pangki,Sp.B</option>
                                         <option value="dr.Eko Sumardiyono,SpPD">dr.Eko Sumardiyono,SP.OT</option>
                                         <option value="dr.RADEN SRI TRIYONO,SP.B">dr.Raden Sri Triyono,SP.B</option>
@@ -128,8 +128,8 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Anestesi</label>
-                                    <select class="form-control" name="dr_anestesi">
-                                        <option value="-">--Choose--</option>
+                                    <select class="form-control" name="dr_anestesi" required>
+                                        <option value="">--Select Me--</option>
                                         <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG BERLIAN,SP.AN</option>
                                         <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
                                         <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option>

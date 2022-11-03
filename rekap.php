@@ -74,6 +74,9 @@
                 <tr>
                   <th>No</th>
                   <th>Tanggal</th>
+                  <th>Jam Mulai</th>
+                  <th>Jam Selesai</th>
+                  <th>Lama</th>
                   <th>No RM</th>
                   <th>Nama</th>
                   <th>Umur</th>
@@ -89,9 +92,6 @@
                   <th>dr.Anestesi</th>
                   <th>Penata Anestesi</th>
                   <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
-                  <th>Jam Mulai</th>
-                  <th>Jam Selesai</th>
-                  <th>Lama</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -113,6 +113,9 @@
                       <td><?php echo $no++; ?></td>
 
                       <td><?php echo $data['tanggal']; ?></td>
+                      <td><?php echo $data['jam_mulai']; ?></td>
+                      <td><?php echo $data['jam_selesai']; ?></td>
+                      <td><?php echo $data['durasi_jam']; ?></td>
                       <td><?php echo $data['no_rm']; ?></td>
                       <td><?php echo $data['nama']; ?></td>
                       <td><?php echo $data['umur']; ?></td>
@@ -128,9 +131,7 @@
                       <td><?php echo $data['dr_anestesi']; ?></td>
                       <td><?php echo $data['penata_anestesi']; ?></td>
                       <td><?php echo $data['tim']; ?></td>
-                      <td><?php echo $data['jam_mulai']; ?></td>
-                      <td><?php echo $data['jam_selesai']; ?></td>
-                      <td><?php echo $data['durasi_jam']; ?></td>
+
                       <td>
                         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#ppiModal<?php echo $data['id']; ?>">Edit</button>
                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#del<?php echo $data['id']; ?>">Del</button>
