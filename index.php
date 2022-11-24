@@ -79,6 +79,7 @@ include "proses.php"; ?>
                                         <option value="-">--Choose--</option>
                                         <option value="Dilakukan">Dilakukan</option>
                                         <option value="Tidak Dilakukan">Tidak Dilakukan</option>
+                                        <option value="Tidak Berlaku(organ tunggal)">Tidak Berlaku(organ tunggal)</option>
                                     </select>
                                 </div>
                                 <div class="mb-3 mt-3">
@@ -120,7 +121,7 @@ include "proses.php"; ?>
                                     <select class="form-control" name="dr_operator" required>
                                         <option value="">--Select Me--</option>
                                         <option value="dr.Aji Pangki,Sp.B">dr.Aji Pangki,Sp.B</option>
-                                        <option value="dr.Eko Sumardiyono,SpPD">dr.Eko Sumardiyono,SP.OT</option>
+                                        <option value="dr.Eko Sumardiyono,Sp.OT">dr.Eko Sumardiyono,SP.OT</option>
                                         <option value="dr.RADEN SRI TRIYONO,SP.B">dr.Raden Sri Triyono,SP.B</option>
                                         <option value="dr.ANITA ROHMAH, SpOG">dr.Anita Rohmah, SpOG</option>
                                         <option value="dr. Nia Ariasti, Sp.M">dr. Nia Ariasti, Sp.M</option>

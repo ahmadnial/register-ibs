@@ -3475,3 +3475,7 @@ Stack trace:
 [25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
 [25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
 [25-Oct-2022 08:30:22 Asia/Jakarta] PHP Warning:  Undefined array key "komplikasi" in D:\nial_app\register-ibs\rekap.php on line 124
+[24-Nov-2022 10:01:07 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\proses.php on line 2
+[24-Nov-2022 10:01:07 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\proses.php on line 2
+[24-Nov-2022 10:03:10 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\proses.php on line 2
+[24-Nov-2022 10:03:10 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\proses.php on line 2
