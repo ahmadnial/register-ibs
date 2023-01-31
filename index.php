@@ -141,8 +141,17 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Penata Anestesi</label>
-                                    <textarea class="form-control" name="penata_anestesi" id="" rows="2" placeholder="Tuliskan Penata Anestesi">Gavan,Amd.Kep</textarea>
+                                    <select class="form-control" name="penata_anestesi" required>
+                                        <option value="">--Select Me--</option>
+                                        <option value="Gavan,Amd.Kep">Gavan,Amd.Kep</option>
+                                        <option value="Isna">Isna</option>
+                                        <option value="-">Tidak ada</option>
+                                    </select>
                                 </div>
+                                <!-- <div class="mb-3 mt-3">
+                                    <label for="alamat" class="form-label">Penata Anestesi</label>
+                                    <textarea class="form-control" name="penata_anestesi" id="" rows="2" placeholder="Tuliskan Penata Anestesi">Gavan,Amd.Kep</textarea>
+                                </div> -->
                                 <!-- <h5>Custom</h5>
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
