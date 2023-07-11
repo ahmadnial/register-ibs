@@ -86,8 +86,8 @@
                   <th>Diag. pasca OP</th>
                   <th>Penandaan Lokasi</th>
                   <th>Teknik Anestesi</th>
-                  <th>Konversi Tindakan Anestesi</th>
-                  <th>Komplikasi Anestesi</th>
+                  <!-- <th>Konversi Tindakan Anestesi</th>
+                  <th>Komplikasi Anestesi</th> -->
                   <th>dr.Operator</th>
                   <th>dr.Anestesi</th>
                   <th>Penata Anestesi</th>
@@ -125,8 +125,7 @@
                       <td><?php echo $data['diagnosa_pasca']; ?></td>
                       <td><?php echo $data['penandaan_lokasi']; ?></td>
                       <td><?php echo $data['teknik_anestesi']; ?></td>
-                      <td><?php echo $data['konversi_anestesi']; ?></td>
-                      <td><?php echo $data['komplikasi']; ?></td>
+                    
                       <td><?php echo $data['dr_operator']; ?></td>
                       <td><?php echo $data['dr_anestesi']; ?></td>
                       <td><?php echo $data['penata_anestesi']; ?></td>
@@ -228,7 +227,7 @@
                                     <label for="alamat" class="form-label">Konversi Tindakan Anestesi</label>
                                     <textarea class="form-control" name="konversi_t_a" id="" rows="2" placeholder="Tuliskan Konversi Tindakan Anestesi"></textarea>
                                 </div> -->
-                              <div class="mb-3 mt-3">
+                              <!-- <div class="mb-3 mt-3">
                                 <label for="" class="form-label">Konversi Tindakan Anestesi</label>
                                 <select class="form-control" name="konversi_t_a">
                                   <option value="-">--Choose--</option>
@@ -238,7 +237,7 @@
                                   <option value="Sedasi Dalam">Sedasi Dalam</option>
                                   <option value="Tidak Dilakukan">Tidak Dilakukan</option>
                                 </select>
-                              </div>
+                              </div> -->
                               <div class="mb-3 mt-3">
                                 <label for="alamat" class="form-label">Dokter Operator</label>
                                 <select class="form-control" name="dr_operator">

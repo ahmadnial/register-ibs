@@ -98,7 +98,7 @@ include "proses.php"; ?>
                                     <label for="alamat" class="form-label">Konversi Tindakan Anestesi</label>
                                     <textarea class="form-control" name="konversi_t_a" id="" rows="2" placeholder="Tuliskan Konversi Tindakan Anestesi"></textarea>
                                 </div> -->
-                                <div class="mb-3 mt-3">
+                                <!-- <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Konversi Tindakan Anestesi</label>
                                     <select class="form-control" name="konversi_t_a" required>
                                         <option value="-">--Choose--</option>
@@ -107,15 +107,15 @@ include "proses.php"; ?>
                                         <option value="Sedasi Moderat">Sedasi Moderat</option>
                                         <option value="Sedasi Dalam">Sedasi Dalam</option>
                                         <option value="Tidak Dilakukan">Tidak Dilakukan</option>
-                                        <!-- <option value="General Anestesi">General Anestesi</option> -->
-                                        <!-- <option value="-">Tidak ada</option> -->
+                                        <option value="General Anestesi">General Anestesi</option>
+                                        <option value="-">Tidak ada</option>
                                     </select>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">komplikasi Anestesi (Overdosis,Reaksi Anestesi,Salah Penempatan ETT)</label>
-                                    <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
+                                    <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea>
                                     <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control" required>
-                                </div>
+                                </div> -->
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
                                     <select class="form-control" name="dr_operator" required>
