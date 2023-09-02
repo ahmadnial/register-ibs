@@ -176,6 +176,7 @@ include "proses.php"; ?>
                                             <option value="Yunus Heryudono">Yunus</option>
                                             <option value="Arlinda Putri">Arlinda</option>
                                             <option value="Rizki Eko">Rizki</option>
+                                            <option value="Jodi">Jodi</option>
                                             <option value="Andri RSUD">Andri</option>
                                             <option value="Brian RSUD">Brian</option>
                                             <option value="Edi RSUD">Edi</option>

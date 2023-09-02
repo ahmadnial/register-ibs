@@ -3479,3 +3479,43 @@ Stack trace:
 [24-Nov-2022 10:01:07 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\proses.php on line 2
 [24-Nov-2022 10:03:10 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\proses.php on line 2
 [24-Nov-2022 10:03:10 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\proses.php on line 2
+[12-Jul-2023 11:21:12 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\rekap.php on line 100
+[12-Jul-2023 11:21:12 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\rekap.php on line 100
+[12-Jul-2023 11:21:12 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\delete.php on line 2
+[12-Jul-2023 11:21:12 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\delete.php on line 2
+[12-Jul-2023 11:21:12 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\edit.php on line 3
+[12-Jul-2023 11:21:12 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\edit.php on line 3
+[12-Jul-2023 11:21:20 Asia/Jakarta] PHP Warning:  include(conn.php): Failed to open stream: No such file or directory in D:\nial_app\register-ibs\proses.php on line 2
+[12-Jul-2023 11:21:20 Asia/Jakarta] PHP Warning:  include(): Failed opening 'conn.php' for inclusion (include_path='.;C:\php\pear') in D:\nial_app\register-ibs\proses.php on line 2
+[12-Jul-2023 21:55:47 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 21:56:38 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 21:57:11 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 21:57:54 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 22:07:42 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 22:08:53 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 22:11:54 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 22:13:22 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 22:14:30 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[12-Jul-2023 22:15:21 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[13-Jul-2023 19:47:44 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[24-Jul-2023 20:27:44 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[24-Jul-2023 20:28:26 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[26-Jul-2023 11:55:49 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[26-Jul-2023 11:56:28 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[26-Jul-2023 11:57:04 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[27-Jul-2023 19:19:37 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[27-Jul-2023 21:43:27 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[28-Jul-2023 16:03:45 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[28-Jul-2023 16:04:30 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[30-Jul-2023 11:11:00 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[03-Aug-2023 09:32:44 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[04-Aug-2023 13:08:30 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[04-Aug-2023 13:23:34 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[08-Aug-2023 20:22:31 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[08-Aug-2023 20:23:42 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[21-Aug-2023 14:06:00 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[25-Aug-2023 14:27:39 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[26-Aug-2023 16:40:25 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[30-Aug-2023 20:42:32 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[01-Sep-2023 18:54:15 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
+[01-Sep-2023 18:55:03 Asia/Jakarta] PHP Warning:  Undefined array key "konversi_t_a" in D:\nial_app\register-ibs\edit.php on line 16
