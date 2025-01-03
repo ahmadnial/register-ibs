@@ -90,7 +90,7 @@ include "proses.php"; ?>
                                         <option value="General Anestesi-ETT">General Anestesi - ETT</option>
                                         <option value="General Anestesi-LMA">General Anestesi - LMA</option>
                                         <option value="General Anestesi-TiVa">General Anestesi - TiVa</option>
-                                        <option value="General Anestesi-TiVa">General Anestesi - Face Mask</option>
+                                        <option value="General Anestesi - Face Mask">General Anestesi - Face Mask</option>
                                         <option value="Lokal Anestesi">Lokal Anestesi</option>
                                     </select>
                                 </div>
@@ -98,9 +98,9 @@ include "proses.php"; ?>
                                     <label for="alamat" class="form-label">Konversi Tindakan Anestesi</label>
                                     <textarea class="form-control" name="konversi_t_a" id="" rows="2" placeholder="Tuliskan Konversi Tindakan Anestesi"></textarea>
                                 </div> -->
-                                <!-- <div class="mb-3 mt-3">
+                                <div class="mb-3 mt-3">
                                     <label for="" class="form-label">Konversi Tindakan Anestesi</label>
-                                    <select class="form-control" name="konversi_t_a" required>
+                                    <select class="form-control" name="konversi_t_a">
                                         <option value="-">--Choose--</option>
                                         <option value="Lokal Anestesi">Lokal Anestesi</option>
                                         <option value="Sedasi Ringan">Sedasi Ringan</option>
@@ -108,14 +108,24 @@ include "proses.php"; ?>
                                         <option value="Sedasi Dalam">Sedasi Dalam</option>
                                         <option value="Tidak Dilakukan">Tidak Dilakukan</option>
                                         <option value="General Anestesi">General Anestesi</option>
-                                        <option value="-">Tidak ada</option>
+                                        <!-- <option value="-">Tidak ada</option> -->
+                                    </select>
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <!-- <label for="" class="form-label">Konversi Tindakan Anestesi</label> -->
+                                    <select class="form-control" name="konversi_t_a2">
+                                        <option value="-">--Choose--</option>
+                                        <option value="GA - TIVA">GA - TIVA</option>
+                                        <option value="GA - FM">GA - FM</option>
+                                        <option value="GA - LMA">GA - LMA</option>
+                                        <option value="GA - ETT">GA - ETT</option>
                                     </select>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">komplikasi Anestesi (Overdosis,Reaksi Anestesi,Salah Penempatan ETT)</label>
                                     <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea>
-                                    <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control" required>
-                                </div> -->
+                                    <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
+                                </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
                                     <select class="form-control" name="dr_operator" required>
@@ -133,7 +143,7 @@ include "proses.php"; ?>
                                         <option value="">--Select Me--</option>
                                         <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG BERLIAN,SP.AN</option>
                                         <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
-                                        <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option>
+                                        <!-- <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option> -->
                                         <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An</option>
                                         <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option>
                                         <option value="-">Tidak ada</option>
