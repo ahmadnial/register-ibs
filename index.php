@@ -195,6 +195,10 @@ include "proses.php"; ?>
                                     <label for="">Durasi</label>
                                     <input type="text" id="" name="durasi" placeholder="Tuliskan Durasi mu!" value="Menit" class="form-control" required>
                                 </div>
+                                <div class="f-group mt-3 mb-3">
+                                    <label for="">Rujukan</label>
+                                    <input type="text" id="" name="rujukan" placeholder="Rujukan Dari....." value="" class="form-control">
+                                </div>
                                 <!-- <input type="hidden" class="form-control" name="status" value="Menunggu Respon"> -->
 
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">

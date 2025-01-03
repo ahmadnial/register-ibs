@@ -23,6 +23,7 @@ if (isset($_POST['save'])) {
     $mulai = $_POST['start_time'];
     $selesai = $_POST['end_time'];
     $durasi = $_POST['durasi'];
+    $rujukan = $_POST['rujukan'];
     $timlist = $_POST['timlist'];
 
     // foreach ($timlist as $tim) {
@@ -38,8 +39,8 @@ if (isset($_POST['save'])) {
     // $text = $_POST[''];
 
     $sql = "INSERT INTO register_ibs (tanggal,no_rm,nama,umur,jaminan,diagnosa_pre,tindakan,diagnosa_pasca,penandaan_lokasi,
-    teknik_anestesi,dr_operator,dr_anestesi,penata_anestesi,tim,jam_mulai,jam_selesai,durasi_jam) VALUES ('$tanggal','$rm','$nama','$umur','$jaminan','$diagnosa_pre',
-    '$tindakan','$diagnosa_pasca','$penandaan','$teknik','$droperator','$dranestesi','$penata','*$timlist[0]<br>*$timlist[1]<br>*$timlist[2]<br>*$timlist[3]<br>*$timlist[4]<br>*$timlist[5]<br>*$timlist[6]','$mulai','$selesai','$durasi')";
+    teknik_anestesi,dr_operator,dr_anestesi,penata_anestesi,tim,jam_mulai,jam_selesai,durasi_jam,rujukan) VALUES ('$tanggal','$rm','$nama','$umur','$jaminan','$diagnosa_pre',
+    '$tindakan','$diagnosa_pasca','$penandaan','$teknik','$droperator','$dranestesi','$penata','*$timlist[0]<br>*$timlist[1]<br>*$timlist[2]<br>*$timlist[3]<br>*$timlist[4]<br>*$timlist[5]<br>*$timlist[6]','$mulai','$selesai','$durasi','$rujukan')";
     // var_dump($tim);
     // die();
     // }

@@ -91,6 +91,7 @@
                   <th>dr.Operator</th>
                   <th>dr.Anestesi</th>
                   <th>Penata Anestesi</th>
+                  <th>Rujukan</th>
                   <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
                   <th>Action</th>
                 </tr>
@@ -125,10 +126,11 @@
                       <td><?php echo $data['diagnosa_pasca']; ?></td>
                       <td><?php echo $data['penandaan_lokasi']; ?></td>
                       <td><?php echo $data['teknik_anestesi']; ?></td>
-                    
+
                       <td><?php echo $data['dr_operator']; ?></td>
                       <td><?php echo $data['dr_anestesi']; ?></td>
                       <td><?php echo $data['penata_anestesi']; ?></td>
+                      <td><?php echo $data['rujukan']; ?></td>
                       <td><?php echo $data['tim']; ?></td>
 
                       <td>
