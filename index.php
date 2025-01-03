@@ -113,9 +113,14 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">komplikasi Anestesi (Overdosis,Reaksi Anestesi,Salah Penempatan ETT)</label>
+<<<<<<< HEAD
                                     <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea>
                                     <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control" required>
                                 </div> -->
+=======
+                                    <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
+                                </div>
+>>>>>>> 1707ee6a7880d01dc860901183b3289b4e0b76c5
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
                                     <select class="form-control" name="dr_operator" required>
