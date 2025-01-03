@@ -89,28 +89,24 @@
                                     <th>Teknik Anestesi</th>
                                     <!-- <th>Konversi Tindakan Anestesi</th>
                   <th>Komplikasi Anestesi</th> -->
-<<<<<<< HEAD
-                  <th>dr.Operator</th>
-                  <th>dr.Anestesi</th>
-                  <th>Penata Anestesi</th>
-                  <th>Rujukan</th>
-                  <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                <?php
-=======
                                     <th>dr.Operator</th>
                                     <th>dr.Anestesi</th>
                                     <th>Penata Anestesi</th>
+                                    <th>Rujukan</th>
                                     <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                <th>dr.Operator</th>
+                                <th>dr.Anestesi</th>
+                                <th>Penata Anestesi</th>
+                                <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                <th>Action</th>
+                                </tr>
+                                </thead>
+                            <tbody>
                                 <?php
->>>>>>> fde1f0d0b143419c9e911555e0df09c2e88f5c74
                 include "conn.php";
 
                 if (isset($_POST['cari'])) {
@@ -126,27 +122,6 @@
                                 <tr>
                                     <td><?php echo $no++; ?></td>
 
-<<<<<<< HEAD
-                      <td><?php echo $data['tanggal']; ?></td>
-                      <td><?php echo $data['jam_mulai']; ?></td>
-                      <td><?php echo $data['jam_selesai']; ?></td>
-                      <td><?php echo $data['durasi_jam']; ?></td>
-                      <td><?php echo $data['no_rm']; ?></td>
-                      <td><?php echo $data['nama']; ?></td>
-                      <td><?php echo $data['umur']; ?></td>
-                      <td><?php echo $data['jaminan']; ?></td>
-                      <td><?php echo $data['diagnosa_pre']; ?></td>
-                      <td><?php echo $data['tindakan']; ?></td>
-                      <td><?php echo $data['diagnosa_pasca']; ?></td>
-                      <td><?php echo $data['penandaan_lokasi']; ?></td>
-                      <td><?php echo $data['teknik_anestesi']; ?></td>
-
-                      <td><?php echo $data['dr_operator']; ?></td>
-                      <td><?php echo $data['dr_anestesi']; ?></td>
-                      <td><?php echo $data['penata_anestesi']; ?></td>
-                      <td><?php echo $data['rujukan']; ?></td>
-                      <td><?php echo $data['tim']; ?></td>
-=======
                                     <td><?php echo $data['tanggal']; ?></td>
                                     <td><?php echo $data['jam_mulai']; ?></td>
                                     <td><?php echo $data['jam_selesai']; ?></td>
@@ -160,8 +135,25 @@
                                     <td><?php echo $data['diagnosa_pasca']; ?></td>
                                     <td><?php echo $data['penandaan_lokasi']; ?></td>
                                     <td><?php echo $data['teknik_anestesi']; ?></td>
->>>>>>> fde1f0d0b143419c9e911555e0df09c2e88f5c74
 
+                                    <td><?php echo $data['dr_operator']; ?></td>
+                                    <td><?php echo $data['dr_anestesi']; ?></td>
+                                    <td><?php echo $data['penata_anestesi']; ?></td>
+                                    <td><?php echo $data['rujukan']; ?></td>
+                                    <td><?php echo $data['tim']; ?></td>
+                                    <td><?php echo $data['tanggal']; ?></td>
+                                    <td><?php echo $data['jam_mulai']; ?></td>
+                                    <td><?php echo $data['jam_selesai']; ?></td>
+                                    <td><?php echo $data['durasi_jam']; ?></td>
+                                    <td><?php echo $data['no_rm']; ?></td>
+                                    <td><?php echo $data['nama']; ?></td>
+                                    <td><?php echo $data['umur']; ?></td>
+                                    <td><?php echo $data['jaminan']; ?></td>
+                                    <td><?php echo $data['diagnosa_pre']; ?></td>
+                                    <td><?php echo $data['tindakan']; ?></td>
+                                    <td><?php echo $data['diagnosa_pasca']; ?></td>
+                                    <td><?php echo $data['penandaan_lokasi']; ?></td>
+                                    <td><?php echo $data['teknik_anestesi']; ?></td>
                                     <td><?php echo $data['dr_operator']; ?></td>
                                     <td><?php echo $data['dr_anestesi']; ?></td>
                                     <td><?php echo $data['penata_anestesi']; ?></td>
