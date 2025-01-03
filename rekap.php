@@ -280,7 +280,8 @@
                                                             </option>
                                                             <option value="General Anestesi-TiVa">General Anestesi -
                                                                 TiVa</option>
-                                                            <option value="General Anestesi-TiVa">General Anestesi -
+                                                            <option value="General Anestesi -
+                                                                Face Mask">General Anestesi -
                                                                 Face Mask</option>
                                                             <option value="Lokal Anestesi">Lokal Anestesi</option>
                                                         </select>

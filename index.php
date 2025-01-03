@@ -106,8 +106,6 @@ include "proses.php"; ?>
                                         <option value="Sedasi Ringan">Sedasi Ringan</option>
                                         <option value="Sedasi Moderat">Sedasi Moderat</option>
                                         <option value="Sedasi Dalam">Sedasi Dalam</option>
-                                        <option value="Tidak Dilakukan">Tidak Dilakukan</option>
-                                        <option value="General Anestesi">General Anestesi</option>
                                         <!-- <option value="-">Tidak ada</option> -->
                                     </select>
                                 </div>
