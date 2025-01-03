@@ -35,7 +35,7 @@
 
         .card-body {
             display: flex;
-            margin: ;
+            /* margin: ; */
             float: center;
             text-align: left;
             align-items: center;

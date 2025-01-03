@@ -90,7 +90,7 @@ include "proses.php"; ?>
                                         <option value="General Anestesi-ETT">General Anestesi - ETT</option>
                                         <option value="General Anestesi-LMA">General Anestesi - LMA</option>
                                         <option value="General Anestesi-TiVa">General Anestesi - TiVa</option>
-                                        <option value="General Anestesi-TiVa">General Anestesi - Face Mask</option>
+                                        <option value="General Anestesi - Face Mask">General Anestesi - Face Mask</option>
                                         <option value="Lokal Anestesi">Lokal Anestesi</option>
                                     </select>
                                 </div>
@@ -113,11 +113,11 @@ include "proses.php"; ?>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">komplikasi Anestesi (Overdosis,Reaksi Anestesi,Salah Penempatan ETT)</label>
-                                    <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea>
+                                    <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
                                     <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control" required>
                                 </div>
-                                    <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
-                                </div>
+                                    <!-- <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
+                                </div> -->
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
                                     <select class="form-control" name="dr_operator" required>
