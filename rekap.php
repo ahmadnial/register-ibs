@@ -128,30 +128,13 @@
                                     <td><?php echo $data['diagnosa_pasca']; ?></td>
                                     <td><?php echo $data['penandaan_lokasi']; ?></td>
                                     <td><?php echo $data['teknik_anestesi']; ?></td>
-
+                                    <td><?php echo $data['konversi_anestesi']; ?></td>
+                                    <td><?php echo $data['komplikasi']; ?></td>
                                     <td><?php echo $data['dr_operator']; ?></td>
                                     <td><?php echo $data['dr_anestesi']; ?></td>
                                     <td><?php echo $data['penata_anestesi']; ?></td>
                                     <td><?php echo $data['rujukan']; ?></td>
                                     <td><?php echo $data['tim']; ?></td>
-                                    <td><?php echo $data['tanggal']; ?></td>
-                                    <td><?php echo $data['jam_mulai']; ?></td>
-                                    <td><?php echo $data['jam_selesai']; ?></td>
-                                    <td><?php echo $data['durasi_jam']; ?></td>
-                                    <td><?php echo $data['no_rm']; ?></td>
-                                    <td><?php echo $data['nama']; ?></td>
-                                    <td><?php echo $data['umur']; ?></td>
-                                    <td><?php echo $data['jaminan']; ?></td>
-                                    <td><?php echo $data['diagnosa_pre']; ?></td>
-                                    <td><?php echo $data['tindakan']; ?></td>
-                                    <td><?php echo $data['diagnosa_pasca']; ?></td>
-                                    <td><?php echo $data['penandaan_lokasi']; ?></td>
-                                    <td><?php echo $data['teknik_anestesi']; ?></td>
-                                    <td><?php echo $data['dr_operator']; ?></td>
-                                    <td><?php echo $data['dr_anestesi']; ?></td>
-                                    <td><?php echo $data['penata_anestesi']; ?></td>
-                                    <td><?php echo $data['tim']; ?></td>
-
                                     <td>
                                         <button type="button" class="btn btn-warning" data-toggle="modal"
                                             data-target="#ppiModal<?php echo $data['id']; ?>">Edit</button>
