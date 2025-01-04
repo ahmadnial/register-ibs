@@ -95,15 +95,15 @@
                                     <th>Rujukan</th>
                                     <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
                                     <th>Action</th>
+                                <!-- </tr> -->
+                                <!-- <tbody> -->
+                                    <th>dr.Operator</th>
+                                    <th>dr.Anestesi</th>
+                                    <th>Penata Anestesi</th>
+                                    <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                    <th>Action</th>
                                 </tr>
-                            </thead>
-                            <tbody>
-                                <th>dr.Operator</th>
-                                <th>dr.Anestesi</th>
-                                <th>Penata Anestesi</th>
-                                <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
-                                <th>Action</th>
-                                </tr>
+                            <!-- </thead> -->
                                 </thead>
                             <tbody>
                                 <?php
