@@ -87,19 +87,12 @@
                                     <th>Diag. pasca OP</th>
                                     <th>Penandaan Lokasi</th>
                                     <th>Teknik Anestesi</th>
-                                    <!-- <th>Konversi Tindakan Anestesi</th>
-                  <th>Komplikasi Anestesi</th> -->
+                                    <th>Konversi Tindakan Anestesi</th>
+                                    <th>Komplikasi Anestesi</th>
                                     <th>dr.Operator</th>
                                     <th>dr.Anestesi</th>
                                     <th>Penata Anestesi</th>
                                     <th>Rujukan</th>
-                                    <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
-                                    <th>Action</th>
-                                <!-- </tr> -->
-                                <!-- <tbody> -->
-                                    <th>dr.Operator</th>
-                                    <th>dr.Anestesi</th>
-                                    <th>Penata Anestesi</th>
                                     <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
                                     <th>Action</th>
                                 </tr>
