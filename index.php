@@ -123,7 +123,7 @@ include "proses.php"; ?>
                                 <div class="mb-3 mt-3">
                                     <label for="" class="form-label">komplikasi Anestesi (Overdosis,Reaksi Anestesi,Salah Penempatan ETT)</label>
                                     <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
-                                    <input type="text" id="" name="komplikasi" placeholder="" class="form-control" required>
+                                    <input type="text" id="" name="komplikasi" placeholder="" class="form-control">
                                 </div>
                                     <!-- <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
                                 </div> -->
