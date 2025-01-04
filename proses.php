@@ -40,7 +40,7 @@ if (isset($_POST['save'])) {
     // $text = $_POST[''];
 
     $sql = "INSERT INTO register_ibs (tanggal,no_rm,nama,umur,jaminan,diagnosa_pre,tindakan,diagnosa_pasca,penandaan_lokasi,
-    teknik_anestesi,konversi_t_a,konversi_t_a2,komplikasi,dr_operator,dr_anestesi,penata_anestesi,tim,jam_mulai,jam_selesai,durasi_jam) VALUES ('$tanggal','$rm','$nama','$umur','$jaminan','$diagnosa_pre',
+    teknik_anestesi,konversi_anestesi,konversi_t_a2,komplikasi,dr_operator,dr_anestesi,penata_anestesi,tim,jam_mulai,jam_selesai,durasi_jam) VALUES ('$tanggal','$rm','$nama','$umur','$jaminan','$diagnosa_pre',
     '$tindakan','$diagnosa_pasca','$penandaan','$teknik','$konversi','$konversi2','$komplikasi','$droperator','$dranestesi','$penata','*$timlist[0]<br>*$timlist[1]<br>*$timlist[2]<br>*$timlist[3]<br>*$timlist[4]<br>*$timlist[5]<br>*$timlist[6]','$mulai','$selesai','$durasi')";
     // var_dump($tim);
     // die();
