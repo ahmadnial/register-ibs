@@ -282,8 +282,8 @@
                                                         </select>
                                                     </div>
                                                     <div class="mb-3 mt-3">
-                                                        <label for="" class="form-label">Konversi Tindakan
-                                                            Anestesi</label>
+                                                        <!-- <label for="" class="form-label">Konversi Tindakan
+                                                            Anestesi</label> -->
                                                         <!-- <label for="" class="form-label">Konversi Tindakan Anestesi</label> -->
                                                         <select class="form-control" name="konversi_t_a2" required>
                                                             <option value="-">--Choose--</option>
