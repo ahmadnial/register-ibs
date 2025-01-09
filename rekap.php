@@ -96,8 +96,8 @@
                                     <th>&nbsp;&nbsp;&nbsp;TIM &nbsp;&nbsp;&nbsp;&nbsp;</th>
                                     <th>Action</th>
                                 </tr>
-                            <!-- </thead> -->
-                                </thead>
+                                <!-- </thead> -->
+                            </thead>
                             <tbody>
                                 <?php
                 include "conn.php";
@@ -256,70 +256,82 @@
                                                             </option>
                                                             <option value="General Anestesi-TiVa">General Anestesi -
                                                                 TiVa</option>
-                                                            <option value="General Anestesi -
-                                                                Face Mask">General Anestesi -
+                                                            <option
+                                                                value="General Anestesi -
+                                                                Face Mask">
+                                                                General Anestesi -
                                                                 Face Mask</option>
                                                             <option value="Lokal Anestesi">Lokal Anestesi</option>
                                                         </select>
                                                     </div>
                                                     <!-- <div class="mb-3 mt-3">
-                                    <label for="alamat" class="form-label">Konversi Tindakan Anestesi</label>
-                                    <textarea class="form-control" name="konversi_t_a" id="" rows="2"
-                                        placeholder="Tuliskan Konversi Tindakan Anestesi"></textarea>
-                                </div> -->
-                                                    <!-- <div class="mb-3 mt-3">
-                                <label for="" class="form-label">Konversi Tindakan Anestesi</label>
-                                <select class="form-control" name="konversi_t_a">
-                                  <option value="-">--Choose--</option>
-                                  <option value="Lokal Anestesi">Lokal Anestesi</option>
-                                  <option value="Sedasi Ringan">Sedasi Ringan</option>
-                                  <option value="Sedasi Moderat">Sedasi Moderat</option>
-                                  <option value="Sedasi Dalam">Sedasi Dalam</option>
-                                  <option value="Tidak Dilakukan">Tidak Dilakukan</option>
-                                </select>
-                              </div> -->
+                                                        <label for="alamat" class="form-label">Konversi Tindakan Anestesi</label>
+                                                        <textarea class="form-control" name="konversi_t_a" id="" rows="2"
+                                                            placeholder="Tuliskan Konversi Tindakan Anestesi"></textarea>
+                                                    </div> -->
                                                     <div class="mb-3 mt-3">
-                                                        <label for="alamat" class="form-label">Dokter
-                                                            Operator</label>
-                                                        <select class="form-control" name="dr_operator">
+                                                        <label for="" class="form-label">Konversi Tindakan
+                                                            Anestesi</label>
+                                                        <select class="form-control" name="konversi_t_a" required>
                                                             <option value="-">--Choose--</option>
-                                                            <option value="dr.Aji Pangki,Sp.B">dr.Aji Pangki,Sp.B
-                                                            </option>
-                                                            <option value="dr.Eko Sumardiyono,SP.OT">dr.Eko
-                                                                Sumardiyono,SP.OT</option>
-                                                            <option value="dr.RADEN SRI TRIYONO,SP.B">dr.Raden Sri
-                                                                Triyono,SP.B</option>
-                                                            <option value="dr.ANITA ROHMAH, SpOG">dr.Anita Rohmah, SpOG
-                                                            </option>
-                                                            <option value="dr. Nia Ariasti, Sp.M">dr. Nia Ariasti, Sp.M
-                                                            </option>
+                                                            <option value="Lokal Anestesi">Lokal Anestesi</option>
+                                                            <option value="Sedasi Ringan">Sedasi Ringan</option>
+                                                            <option value="Sedasi Moderat">Sedasi Moderat</option>
+                                                            <option value="Sedasi Dalam">Sedasi Dalam</option>
+                                                            <!-- <option value="-">Tidak ada</option> -->
                                                         </select>
                                                     </div>
-                                                    <div class="mb-3 mt-3">
-                                                        <label for="alamat" class="form-label">Dokter
-                                                            Anestesi</label>
-                                                        <select class="form-control" name="dr_anestesi">
-                                                            <option value="-">--Choose--</option>
-                                                            <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG
-                                                                BERLIAN,SP.AN</option>
-                                                            <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO
-                                                                ARDIYANTO,SpAn</option>
-                                                            <!-- <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful
+                                                    <!-- <label for="" class="form-label">Konversi Tindakan Anestesi</label> -->
+                                                    <select class="form-control" name="konversi_t_a2" required>
+                                                        <option value="-">--Choose--</option>
+                                                        <option value="GA-TIVA">GA-TIVA</option>
+                                                        <option value="GA-FM">GA-FM</option>
+                                                        <option value="GA-LMA">GA-LMA</option>
+                                                        <option value="GA-ETT">GA-ETT</option>
+                                                    </select>
+                                            </div>
+                                            <div class="mb-3 mt-3">
+                                                <label for="alamat" class="form-label">Dokter
+                                                    Operator</label>
+                                                <select class="form-control" name="dr_operator">
+                                                    <option value="-">--Choose--</option>
+                                                    <option value="dr.Aji Pangki,Sp.B">dr.Aji Pangki,Sp.B
+                                                    </option>
+                                                    <option value="dr.Eko Sumardiyono,SP.OT">dr.Eko
+                                                        Sumardiyono,SP.OT</option>
+                                                    <option value="dr.RADEN SRI TRIYONO,SP.B">dr.Raden Sri
+                                                        Triyono,SP.B</option>
+                                                    <option value="dr.ANITA ROHMAH, SpOG">dr.Anita Rohmah, SpOG
+                                                    </option>
+                                                    <option value="dr. Nia Ariasti, Sp.M">dr. Nia Ariasti, Sp.M
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3 mt-3">
+                                                <label for="alamat" class="form-label">Dokter
+                                                    Anestesi</label>
+                                                <select class="form-control" name="dr_anestesi">
+                                                    <option value="-">--Choose--</option>
+                                                    <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG
+                                                        BERLIAN,SP.AN</option>
+                                                    <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO
+                                                        ARDIYANTO,SpAn</option>
+                                                    <!-- <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful
                                                                 Fatah,Sp.An</option> -->
-                                                            <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An
-                                                            </option>
-                                                            <option value="dr.Dika Rezkiawan Sp.An">dr.Dika
-                                                                Rezkiawan,Sp.An</option>
-                                                            <option value="-">Tidak ada</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="mb-3 mt-3">
-                                                        <label for="alamat" class="form-label">Penata
-                                                            Anestesi</label>
-                                                        <textarea class="form-control" name="penata_anestesi" id="" rows="2"
-                                                            placeholder="Tuliskan Penata Anestesi"><?php echo $data['penata_anestesi']; ?></textarea>
-                                                    </div>
-                                                    <!-- <h5>Custom</h5>
+                                                    <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An
+                                                    </option>
+                                                    <option value="dr.Dika Rezkiawan Sp.An">dr.Dika
+                                                        Rezkiawan,Sp.An</option>
+                                                    <option value="-">Tidak ada</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3 mt-3">
+                                                <label for="alamat" class="form-label">Penata
+                                                    Anestesi</label>
+                                                <textarea class="form-control" name="penata_anestesi" id="" rows="2"
+                                                    placeholder="Tuliskan Penata Anestesi"><?php echo $data['penata_anestesi']; ?></textarea>
+                                            </div>
+                                            <!-- <h5>Custom</h5>
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
                                         <div class="form-group">
@@ -335,7 +347,7 @@
                                             </select>
                                         </div>
                                     </div> -->
-                                                    <!-- <div class="mb-3 mt-3">
+                                            <!-- <div class="mb-3 mt-3">
                                 <label>TIM</label>
                                 <div class="select2-purple">
                                   <select class="select2" name="timlist[]" multiple="multiple" data-placeholder="Select a Man" data-dropdown-css-class="select2-purple" style="width: 100%;">
@@ -349,74 +361,79 @@
                                   </select>
                                 </div>
                               </div> -->
-                                                    <div class="f-group">
-                                                        <label for="">Jam Mulai</label>
-                                                        <input type="time" id="" name="start_time"
-                                                            placeholder="" class="form-control" required
-                                                            value="<?php echo $data['jam_mulai']; ?>">
-                                                    </div>
-                                                    <div class="f-group mt-3 mb-3">
-                                                        <label for="">Jam Selesai</label>
-                                                        <input type="time" id="" name="end_time"
-                                                            placeholder="" class="form-control" required
-                                                            value="<?php echo $data['jam_selesai']; ?>">
-                                                    </div>
-                                                    <div class="f-group mt-3 mb-3">
-                                                        <label for="">Durasi</label>
-                                                        <input type="text" id="" name="durasi"
-                                                            placeholder="Tuliskan Durasi mu!" class="form-control"
-                                                            required value="<?php echo $data['durasi_jam']; ?>">
-                                                    </div>
-
-                                                    <button type="submit" name="updatecok" id="update"
-                                                        class="btn btn-success mt-3 ml-2 float-right">Update</button>
-                                                    <button type="button" class="btn btn-danger mt-3 float-right"
-                                                        data-dismiss="modal">Close</button>
+                                            <div class="f-group">
+                                                <label for="">Jam Mulai</label>
+                                                <input type="time" id="" name="start_time"
+                                                    placeholder="" class="form-control" required
+                                                    value="<?php echo $data['jam_mulai']; ?>">
                                             </div>
-                                            </form>
+                                            <div class="f-group mt-3 mb-3">
+                                                <label for="">Jam Selesai</label>
+                                                <input type="time" id="" name="end_time" placeholder=""
+                                                    class="form-control" required value="<?php echo $data['jam_selesai']; ?>">
+                                            </div>
+                                            <div class="f-group mt-3 mb-3">
+                                                <label for="">Durasi</label>
+                                                <input type="text" id="" name="durasi"
+                                                    placeholder="Tuliskan Durasi mu!" class="form-control" required
+                                                    value="<?php echo $data['durasi_jam']; ?>">
+                                            </div>
+
+                                            <div class="f-group mt-3 mb-3">
+                                                <label for="">Rujukan</label>
+                                                <input type="text" id="" name="rujukan"
+                                                    placeholder="Rujukan Dari....." value="<?php echo $data['rujukan']; ?>"
+                                                    class="form-control">
+                                            </div>
+
+                                            <button type="submit" name="updatecok" id="update"
+                                                class="btn btn-success mt-3 ml-2 float-right">Update</button>
+                                            <button type="button" class="btn btn-danger mt-3 float-right"
+                                                data-dismiss="modal">Close</button>
                                         </div>
-                                        <div class="modal-footer">
-                                        </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
                                     </div>
                                 </div>
-                                <div class="modal fade" id="del<?php echo $data['id']; ?>">
-                                    <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="Label">Konfirmasi dulu, Serius mau di
-                                                    Hapus <?php echo $data['nama']; ?> no RM : <?php echo $data['no_rm']; ?>?</h5>
-                                                <button type="button" class="btn-close" data-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-                                                <body>
-                                                    <form action="" method="post">
-                                                        <input type="hidden" name="id_del"
-                                                            value="<?php echo $data['id']; ?>">
-                                                        <button type="submit" name="del"
-                                                            class="btn btn-success">Ya dong</button>
-                                                        <button type="button" class="btn btn-danger ml-1"
-                                                            data-dismiss="modal">Gajadi</button>
-                                                    </form>
-                                                </body>
-                                            </div>
-                                        </div>
-                                        <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
-                                        <div class="modal-footer">
-                                        </div>
-                                    </div>
-                                </div>
-                                <?php } ?>
-                                <?php } ?>
-                                <?php include 'delete.php'; ?>
-                                <?php include 'edit.php'; ?>
-                                </tfoot>
-                        </table>
                     </div>
-                    <!-- /.card-body -->
+                    <div class="modal fade" id="del<?php echo $data['id']; ?>">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="Label">Konfirmasi dulu, Serius mau di
+                                        Hapus <?php echo $data['nama']; ?> no RM : <?php echo $data['no_rm']; ?>?</h5>
+                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <body>
+                                        <form action="" method="post">
+                                            <input type="hidden" name="id_del" value="<?php echo $data['id']; ?>">
+                                            <button type="submit" name="del" class="btn btn-success">Ya
+                                                dong</button>
+                                            <button type="button" class="btn btn-danger ml-1"
+                                                data-dismiss="modal">Gajadi</button>
+                                        </form>
+                                    </body>
+                                </div>
+                            </div>
+                            <!-- <button type="button" class="btn btn-danger mt-3 float-right" data-dismiss="modal">Close</button> -->
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                    <?php } ?>
+                    <?php include 'delete.php'; ?>
+                    <?php include 'edit.php'; ?>
+                    </tfoot>
+                    </table>
                 </div>
-                <!-- /.card -->
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
 </section>
 <br>
 <br>
