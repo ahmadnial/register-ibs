@@ -125,7 +125,7 @@ include "proses.php"; ?>
                                     <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
                                     <input type="text" id="" name="komplikasi" placeholder="" class="form-control">
                                 </div>
-                                    <!-- <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
+                                <!-- <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
                                 </div> -->
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
@@ -136,6 +136,7 @@ include "proses.php"; ?>
                                         <option value="dr.RADEN SRI TRIYONO,SP.B">dr.Raden Sri Triyono,SP.B</option>
                                         <option value="dr.ANITA ROHMAH, SpOG">dr.Anita Rohmah, SpOG</option>
                                         <option value="dr. Nia Ariasti, Sp.M">dr. Nia Ariasti, Sp.M</option>
+                                        <option value="dr.Okky Irawan,Sp.T.H.T.B.K.L">dr.Okky Irawan,Sp.T.H.T.B.K.L</option>
                                     </select>
                                 </div>
                                 <div class="mb-3 mt-3">
