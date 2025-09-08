@@ -143,11 +143,11 @@ include "proses.php"; ?>
                                     <label for="alamat" class="form-label">Dokter Anestesi</label>
                                     <select class="form-control" name="dr_anestesi" required>
                                         <option value="">--Select Me--</option>
-                                        <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG BERLIAN,SP.AN</option>
+                                        <!-- <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG BERLIAN,SP.AN</option> -->
                                         <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
                                         <!-- <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option> -->
                                         <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An</option>
-                                        <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option>
+                                        <!-- <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option> -->
                                         <option value="-">Tidak ada</option>
                                     </select>
                                 </div>
