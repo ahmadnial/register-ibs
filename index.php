@@ -136,6 +136,7 @@ include "proses.php"; ?>
                                         <option value="dr.RADEN SRI TRIYONO,SP.B">dr.Raden Sri Triyono,SP.B</option>
                                         <option value="dr.ANITA ROHMAH, SpOG">dr.Anita Rohmah, SpOG</option>
                                         <option value="dr. Nia Ariasti, Sp.M">dr. Nia Ariasti, Sp.M</option>
+                                        <option value="dr.Yakobus Alvin,Sp.T.H.T.B.K.L">dr.Yakobus Alvin,Sp.T.H.T.B.K.L</option>
                                     </select>
                                 </div>
                                 <div class="mb-3 mt-3">
@@ -191,6 +192,7 @@ include "proses.php"; ?>
                                             <option value="Andri RSUD">Andri</option>
                                             <option value="Brian RSUD">Brian</option>
                                             <option value="Edi RSUD">Edi</option>
+                                            <option value="Khoirunnisa">Khoirunnisa</option>
                                         </select>
                                     </div>
                                 </div>
