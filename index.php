@@ -125,7 +125,7 @@ include "proses.php"; ?>
                                     <!-- <textarea class="form-control" name="diag_pas_op" id="" rows="2" placeholder="Tuliskan Diagnosa Pasca OP"></textarea> -->
                                     <input type="text" id="" name="komplikasi" placeholder="" class="form-control">
                                 </div>
-                                    <!-- <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
+                                <!-- <input type="text" id="" name="komplikasi" placeholder="Ada atau Tidak" class="form-control">
                                 </div> -->
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Operator</label>
@@ -137,17 +137,19 @@ include "proses.php"; ?>
                                         <option value="dr.ANITA ROHMAH, SpOG">dr.Anita Rohmah, SpOG</option>
                                         <option value="dr. Nia Ariasti, Sp.M">dr. Nia Ariasti, Sp.M</option>
                                         <option value="dr.Yakobus Alvin,Sp.T.H.T.B.K.L">dr.Yakobus Alvin,Sp.T.H.T.B.K.L</option>
+                                        <option value="dr.Okky Irawan,Sp.T.H.T.B.K.L">dr.Okky Irawan,Sp.T.H.T.B.K.L</option>
+
                                     </select>
                                 </div>
                                 <div class="mb-3 mt-3">
                                     <label for="alamat" class="form-label">Dokter Anestesi</label>
                                     <select class="form-control" name="dr_anestesi" required>
                                         <option value="">--Select Me--</option>
-                                        <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG BERLIAN,SP.AN</option>
+                                        <!-- <option value="dr.BINTANG BERLIAN,SP.AN">dr.BINTANG BERLIAN,SP.AN</option> -->
                                         <option value="dr.BOWO ARDIYANTO,SpAn">dr.BOWO ARDIYANTO,SpAn</option>
                                         <!-- <option value="dr.Syaeful Fatah,Sp.An">dr.Syaeful Fatah,Sp.An</option> -->
                                         <option value="dr.Adi Hidayat,Sp.An">dr.Adi Hidayat,Sp.An</option>
-                                        <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option>
+                                        <!-- <option value="dr.Dika Rezkiawan Sp.An">dr.Dika Rezkiawan,Sp.An</option> -->
                                         <option value="-">Tidak ada</option>
                                     </select>
                                 </div>
@@ -188,10 +190,6 @@ include "proses.php"; ?>
                                             <option value="Yunus Heryudono">Yunus</option>
                                             <option value="Arlinda Putri">Arlinda</option>
                                             <option value="Rizki Eko">Rizki</option>
-                                            <option value="Jodi">Jodi</option>
-                                            <option value="Andri RSUD">Andri</option>
-                                            <option value="Brian RSUD">Brian</option>
-                                            <option value="Edi RSUD">Edi</option>
                                             <option value="Khoirunnisa">Khoirunnisa</option>
                                         </select>
                                     </div>
